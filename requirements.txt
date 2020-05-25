@@ -5,4 +5,3 @@ appmode==0.7.0
 IPython==7.8.0
 voila
 voila-material
-widget-periodictable
