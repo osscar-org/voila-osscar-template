@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.5.0/css/font-awesome.min.css" type="text/css">
 <link href="{{resources.base_url}}voila/static/index.css" rel="stylesheet" type='text/css'>
 {% if resources.theme == 'dark' %}
-{% set bar_color = '##fffb00' %}
+{% set bar_color = '#eee' %}
 <link href="{{resources.base_url}}voila/static/theme-dark.css" rel="stylesheet" type='text/css'>
 {% else %}
-{% set bar_color = '##fffb00' %}
+{% set bar_color = '#eee' %}
 <link href="{{resources.base_url}}voila/static/theme-light.css" rel="stylesheet" type='text/css'>
 {% endif %}
 <link href="{{resources.base_url}}voila/static/materialize.min.css" rel="stylesheet" type='text/css'>
@@ -163,6 +163,7 @@ button.red:active {
   font-style: normal;
   font-size: 24px;
   line-height: 1;
+  color: #a10500;
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -225,14 +226,14 @@ a.anchor-link {
     </div>
   </header>
 
-  <main style="background-color:#e6e6e6">
+  <main style="background-color: white">
     <div class="container">
       <div class="row">
         <div class="col s12" id="col_s12" style="margin-bottom: 30px">
           {% if resources.theme == 'dark' %}
           <div class="jp-Notebook theme-dark">
             {% else %}
-            <div class="jp-Notebook theme-light">
+            <div class="jp-Notebook theme-light" style="min-height: 550px">
               {% endif %}
               {%- block body_loop -%}
               {# from this point on, the kernel is started #}
@@ -258,7 +259,7 @@ a.anchor-link {
               <div id="rendered_cells" style="display: none">
               </div>
             </div>
-            <hr style="border-top: 3px solid #8c8b8b;">
+            <hr style="border-top: 0.5px solid #f5f5f5;">
             <a style="left: 10%" href="https://www.osscar.org/">Open Software Services for Classrooms and Research – An Open Science Educational Hub</a>
           </div>
         </div>
