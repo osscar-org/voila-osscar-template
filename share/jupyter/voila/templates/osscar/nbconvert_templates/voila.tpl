@@ -214,6 +214,18 @@ footer div.logo-container ~ div.logo-container {
   word-wrap: normal;
   direction: ltr;
 }
+
+/* Workaround for the Select/Dropdown widgets to be visible: */
+select {
+  display: block;
+}
+
+/* Workaround for the RadioButtons widgets to be visible: */
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: static;
+  opacity: 1;
+  pointer-events: auto;
+}
 </style>
 
 {% for css in resources.inlining.css %}
