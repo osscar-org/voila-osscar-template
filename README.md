@@ -6,6 +6,12 @@
 
 This is a Voila template for applications developed by the OSSCAR project.
 
+## Install
+
+```bash
+pip install voila-osscar-template
+```
+
 # Acknowlegements
 
 We acknowledge support from the EPFL Open Science Fund via the [OSSCAR](http://www.osscar.org) project.
