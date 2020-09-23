@@ -1,3 +1,5 @@
 #!/bin/bash
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter nbextension      enable --py widgetsnbextension
+pip uninstall voila-osscar-template
+pip install voila-osscar-template==0.0.6
