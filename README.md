@@ -2,7 +2,7 @@
 
 ## Try it with Binder!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/osscar-org/voila-osscar-template/develop?urlpath=%2Fvoila%2Frender%2Fexample-notebooks%2Fexample.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/osscar-org/voila-osscar-template/develop?urlpath=%2Fvoila%2Frender%2Fexample-notebooks%2Fgaussian_process_regression.ipynb)
 
 This is a Voila template for applications developed by the OSSCAR project.
 
