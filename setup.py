@@ -8,11 +8,11 @@ for root, dirs, files in os.walk('share'):
 
 setup_args = {
     'name': 'voila-osscar-template',
-    'version': '0.0.2',
+    'version': '0.0.3',
     'packages': [],
     'data_files': data_files,
     'install_requires': [
-        'voila>=0.1.6,<0.2'
+        'voila>=0.1.6,<0.3'
     ],
     'author': 'Dou Du',
     'url': 'https://github.com/osscar-org/osscar-voila-template'
