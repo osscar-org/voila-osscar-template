@@ -85,7 +85,7 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/'):
 
 setup(
     name='voila-osscar-template',
-    version="0.0.6",
+    version="0.2.0",
     description="OSSCAR template for voila",
     data_files=data_files,
     include_package_data=True,
