@@ -88,7 +88,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='voila-osscar-template',
-    version='0.2.1',
+    version='0.2.2',
     description="OSSCAR template for voila",
     data_files=data_files,
     include_package_data=True,
