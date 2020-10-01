@@ -83,7 +83,7 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/'):
         data_files.append((dirpath, [os.path.join(dirpath, filename) for filename in filenames]))
 
 this_directory = os.path.abspath(os.path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
