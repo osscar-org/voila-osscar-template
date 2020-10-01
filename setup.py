@@ -82,10 +82,6 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/'):
     if filenames:
         data_files.append((dirpath, [os.path.join(dirpath, filename) for filename in filenames]))
 
-this_directory = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='voila-osscar-template',
     version='0.2.2',
@@ -105,6 +101,4 @@ setup(
     cmdclass={
         'develop': DevelopCmd,
    },
-    long_description=long_description,
-    long_description_content_type='text/markdown'
 )
