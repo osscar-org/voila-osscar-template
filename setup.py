@@ -3,6 +3,7 @@ import os
 from setuptools import setup
 from setuptools.command.develop import develop
 import contextlib
+from pathlib import Path 
 
 pjoin = os.path.join
 
@@ -101,4 +102,6 @@ setup(
     cmdclass={
         'develop': DevelopCmd,
    },
+    long_description=open(Path(__file__).parent.joinpath('README.md').resolve()).read(),
+    long_description_content_type='text/markdown',
 )
