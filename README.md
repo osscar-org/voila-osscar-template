@@ -30,7 +30,7 @@ voila --template=osscar example.ipynb
 This repository and all files in it are licensed under the [BSD
 license](LICENSE), copyright (c) by Voilà contributors.
 
-# Acknowlegements
+# Acknowledgements
 
 We acknowledge support from the EPFL Open Science Fund via the [OSSCAR](http://www.osscar.org) project.
 
