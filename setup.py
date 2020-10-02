@@ -3,7 +3,7 @@ import os
 from setuptools import setup
 from setuptools.command.develop import develop
 import contextlib
-from pathlib import Path 
+from pathlib import Path
 
 pjoin = os.path.join
 
@@ -85,7 +85,7 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/'):
 
 setup(
     name='voila-osscar-template',
-    version='0.2.3',
+    version='0.2.4',
     description="OSSCAR template for voila",
     data_files=data_files,
     include_package_data=True,
