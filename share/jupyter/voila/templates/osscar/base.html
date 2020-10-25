@@ -1,12 +1,3 @@
-{% macro spinner() -%}
-  <div class="loading">
-    <div class="spinner-container">
-      <img style="width: 150px; text-align: center;" src="{{ base_url }}voila/static/gears.svg"/>
-    </div>
-    {{ caller() }}
-  </div>
-{%- endmacro %}
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,7 +70,7 @@
       }
 
       .spinner-container {
-        width: 10%;
+        width: 20%;
       }
 
       @keyframes rotation {
@@ -92,7 +83,7 @@
       }
 
       .voila-spinner-color2{
-        fill: #f8e14b;
+        fill: #a80000;
       }
     </style>
 
