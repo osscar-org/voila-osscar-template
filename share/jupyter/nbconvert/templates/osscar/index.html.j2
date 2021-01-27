@@ -141,7 +141,12 @@
           {%- block body_footer -%}
           <hr style="border-top: 0.5px solid #cccccc;">
           <footer class="container">
-            <p>Copyright © 2019-2020 OSSCAR. All Rights Reserved.
+            <p>
+              {% if resources.authors != None %}
+                Authors: {{ resources.authors }}
+                <br>
+              {% endif %}
+              Copyright © 2019-2021 OSSCAR. All Rights Reserved.
               <br>
               OSSCAR is supported by the <a href="https://www.osscar.org">EPFL Open Science Fund.</a>
               <br>
