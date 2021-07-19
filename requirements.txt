@@ -3,5 +3,5 @@ ipywidgets==7.5.1
 IPython==7.18.1
 voila==0.2.3
 bqplot==0.12.18
-numpy==1.19.2
+numpy==1.21.1
 invoke==1.4.1
