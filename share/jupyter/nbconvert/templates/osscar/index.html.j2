@@ -142,7 +142,7 @@
           <hr style="border-top: 0.5px solid #cccccc;">
           <footer class="container">
             <p>
-              {% if resources.authors != None %}
+              {% if resources.authors.length >= 1 %}
                 Authors: {{ resources.authors }}
                 <br>
               {% endif %}
