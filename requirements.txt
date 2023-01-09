@@ -1,6 +1,6 @@
 pip==22.3 
 ipywidgets==7.6.5
-IPython==8.5.0
+IPython==8.8.0
 voila==0.3.6
 bqplot==0.12.36
 numpy==1.23.4
