@@ -4,4 +4,4 @@ IPython==8.5.0
 voila==0.3.6
 bqplot==0.12.36
 numpy==1.23.4
-invoke==1.6.0
+invoke==2.0.0
