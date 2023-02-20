@@ -1,4 +1,4 @@
-pip==22.3 
+pip==23.0.1 
 ipywidgets==7.6.5
 IPython==8.5.0
 voila==0.3.6
